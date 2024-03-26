@@ -56,7 +56,7 @@ namespace ProjetoApi.Controllers
             return forecasts;
         }
 
-        /// Usa  a memoria  da maquina becessária para ler a linha a a retirnar logo em seguida. mais eficiente 
+        // Usa  a memoria  da maquina becessária para ler a linha a a retirnar logo em seguida. mais eficiente 
 
         [HttpGet("teste")]
         public async IAsyncEnumerable<WeatherForecast> GetAsync()
